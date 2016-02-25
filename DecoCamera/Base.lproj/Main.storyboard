@@ -215,6 +215,11 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="hdA-R9-BtD" secondAttribute="height" id="Xsn-pe-nmh"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Xsn-pe-nmh"/>
+                                    </mask>
+                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -222,6 +227,7 @@
                             <constraint firstItem="C6k-x3-9SL" firstAttribute="top" secondItem="qLZ-yf-7qm" secondAttribute="top" id="1Km-75-b3u"/>
                             <constraint firstItem="lmK-fJ-HDI" firstAttribute="top" secondItem="aZO-OT-b4K" secondAttribute="bottom" constant="62" id="1M5-Ii-bdc"/>
                             <constraint firstItem="hdA-R9-BtD" firstAttribute="leading" secondItem="qLZ-yf-7qm" secondAttribute="leading" constant="32" id="6gN-Xt-OiF"/>
+                            <constraint firstItem="hdA-R9-BtD" firstAttribute="centerY" secondItem="C6k-x3-9SL" secondAttribute="centerY" id="Amw-30-Wpz"/>
                             <constraint firstItem="cXU-8g-voI" firstAttribute="centerX" secondItem="qLZ-yf-7qm" secondAttribute="centerX" id="B6x-ai-BIJ"/>
                             <constraint firstItem="aZO-OT-b4K" firstAttribute="leading" secondItem="G85-Vr-T1D" secondAttribute="trailing" constant="20" id="Bkx-qv-54E"/>
                             <constraint firstItem="G85-Vr-T1D" firstAttribute="leading" secondItem="GCM-PI-vvG" secondAttribute="trailing" constant="20" id="CX8-oU-g4w"/>
@@ -251,8 +257,11 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="6gN-Xt-OiF"/>
+                                <exclude reference="Amw-30-Wpz"/>
                                 <exclude reference="EaH-7d-wZl"/>
+                                <exclude reference="RjS-0r-QYB"/>
                                 <exclude reference="TFM-xe-SYJ"/>
+                                <exclude reference="tdd-yg-WXv"/>
                                 <exclude reference="vL0-i0-3l2"/>
                                 <exclude reference="CX8-oU-g4w"/>
                                 <exclude reference="Ogw-gb-U1z"/>
